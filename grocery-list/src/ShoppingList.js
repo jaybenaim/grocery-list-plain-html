@@ -10,6 +10,7 @@ class ShoppingList extends React.Component {
     updateItem = (newValue) => { 
         this.setState ({ value: newValue })
     }
+    
     render(){ 
         return (
             <ul id="shoppingList" className="shoppinglist">
